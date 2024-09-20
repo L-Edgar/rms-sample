@@ -1,0 +1,102 @@
+.container,.container1{
+   background-color: var(--foreground);
+
+width: 620px;
+height: 384px;
+left: 249px;
+top: 274px;
+padding: 20px;
+border-radius: 10px;
+display: flex;
+flex-direction: row-reverse;
+justify-content: space-around;
+flex-wrap: wrap-reverse;
+}
+
+
+
+.container2{
+   background-color: var(--foreground);
+
+width: 100%;
+height: 384px;
+left: 249px;
+top: 274px;
+padding: 20px;
+border-radius: 10px;
+
+}
+
+
+
+.container .chart h1,.container1 .chart h1, .container2 h1{
+   font-weight: 200;
+   margin-bottom: 20px;
+   font-size: 20px;
+}
+
+.charts{
+   display: flex;
+   justify-content: space-around;
+   
+   height: 100%;
+   width: 100%;
+}
+
+.chart{
+   width: 100%;
+   height: 100%;
+}
+
+
+.key{
+   margin-right: -450px;
+   margin-bottom: 300px;
+   
+   position: fixed;
+   
+  
+}
+
+.key1,.key2{
+   display: flex;
+   
+   align-items: center;
+}
+
+.shape1{
+   background-color: #8884d8;
+   height: 15px;
+   width: 15px;
+}
+
+.shape2{
+   background-color: #82ca9d;
+   height: 15px;
+   width: 15px;
+}
+
+
+@media (max-width:1200px){
+   .container2{
+      width: fit-content;
+      height: fit-content;
+   }
+   .container{
+      width: fit-content;
+      height: fit-content;
+   }
+   .charts{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: 100%;
+   }
+   .barchart{
+      width: 100%;
+      
+   }
+   .key{
+      display: none;
+   }
+}

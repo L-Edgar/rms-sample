@@ -1,0 +1,32 @@
+.container{
+    color: var(--defaulttext);
+ /* Grant Research Module */
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+width: 232px;
+height: 60px;
+left: 100px;
+border-bottom: 1px solid #678CC8;
+display: flex;
+flex-direction: row;
+align-items: center;
+
+gap: 10px;
+padding: 20px;
+}
+
+.container:hover{
+    background-color:var( --background);
+}
+
+.container:hover, .active{
+    color: var(--activetext);
+    background-color:var( --background);
+    
+}

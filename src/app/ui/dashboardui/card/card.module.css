@@ -1,0 +1,66 @@
+.container{
+    margin-left: -10px;
+    background-color:var(--foreground);
+   
+
+
+width: 244px;
+height: 81px;
+cursor: pointer;
+gap: 20px;
+display: flex;
+padding: 20px;
+border: 10px;
+
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.title{
+   
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+
+
+
+color: var(--defaulttext);
+
+
+}
+
+.number{
+  
+
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+
+color: var(--defaulttext);
+
+
+}
+
+.container .icon{
+    background-color: var(--iconBackground);
+
+    width: 25px;
+    height: 25px;
+  
+    padding: 4px;
+  
+    border-radius: 20px;
+    color: var(--iconcolor);
+
+}

@@ -1,0 +1,80 @@
+.container {
+  margin: 13px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+ 
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.title h1 {
+  height: 29px;
+  left: 16px;
+  top: 10px;
+
+  font-family: "Inika";
+  font-style: bold;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 29px;
+
+  color: var(--defaulttext);
+}
+
+.title h4 {
+  width: 181px;
+  height: 15px;
+  left: 19px;
+  top: 39px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+
+  color: var(--iconcolor);
+}
+
+.profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--iconcolor);
+  gap: 10px;
+  cursor: pointer;
+}
+
+.icon {
+  background-color: var(--iconBackground);
+
+  width: 25px;
+  height: 25px;
+
+  padding: 1px;
+
+  border-radius: 20px;
+}
+
+@media (max-width:1250px){
+  .container{
+    gap: 60%;
+  }
+  .title{
+    
+  }
+  .title h1{
+    font-size: 18px;
+    
+  }
+  .title h4{
+    font-size: 8px;
+   
+  }
+}

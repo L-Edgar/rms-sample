@@ -1,0 +1,43 @@
+:root {
+  --background: #EEF0F5;
+  --foreground: #FFFFFF;
+  --iconcolor:#678CC8;
+  --keycolor:#DCF448;
+  --keycolor2:#406D2B;
+  --activetext:#224D93;
+  --cardtext:#4C4C4C;
+  --defaulttext:#000000;
+  --iconBackground:rgba(176, 206, 255, 0.5);
+}
+
+
+
+body {
+  color: var(--defaulttext);
+  background-color: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+ 
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+ 
+}
+
+a {
+  color: var(--activetext);
+  text-decoration: none;
+}
+
+
+@media (max-width:1250px){
+  *{
+    width: 100%;
+    overflow-wrap: var(--keycolor2);
+    
+  }
+}
